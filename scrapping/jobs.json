@@ -50,8 +50,12 @@
                 "website": "https://geekhunter.gupy.io"
             },
             {
+                "company_name":"Docket",
+                "website":"https://docket.gupy.io"
+            },
+            {
                 "company_name": "Conexa Saúde",
-                "website": "https://docket.gupy.io"
+                "website": "https://conexasaude.gupy.io"
             },
             {
                 "company_name": "Olist",
@@ -64,9 +68,21 @@
             {
                 "company_name": "Maxmilhas",
                 "website": "https://maxmilhas.gupy.io"
+            },
+            {
+                "company_name": "Cortex",
+                "website": "https://cortex.gupy.io"
+            },
+            {
+                "company_name": "Superlógica",
+                "website": "https://superlogica.gupy.io"
             }
         ],
         "kenoby": [
+            {
+                "company_name":"Guiabolso",
+                "website":"https://jobs.kenoby.com/guiabolso"
+            },
             {
                 "company_name": "Softplan",
                 "website": "https://jobs.kenoby.com/softplan"
@@ -102,6 +118,14 @@
             {
                 "company_name": "Cobli",
                 "website": "https://jobs.kenoby.com/cobli"
+            },
+            {
+                "company_name": "CargoX",
+                "website": "https://jobs.kenoby.com/cargox"
+            },
+            {
+                "company_name": "Conta Azul",
+                "website": "https://jobs.kenoby.com/contaazul"
             }
         ],
         "greenhouse": [
@@ -148,7 +172,7 @@
                 "website": "https://www.linkedin.com/company/skyinone/jobs/"
             }
         ],
-        "Others": [
+        "others": [
             {
                 "company_name": "Neon",
                 "website": "https://vagas.neon.com.br/"
