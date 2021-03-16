@@ -1,0 +1,202 @@
+{
+    "jobs_sources": {
+        "gupy": [
+            {
+                "company_name": "Aiqfome",
+                "website": "https://aiqfome.gupy.io"
+            },
+            {
+                "company_name": "Hilab",
+                "website": "https://hilab.gupy.io"
+            },
+            {
+                "company_name": "Madeira Madeira",
+                "website": "https://madeiracarreira.gupy.io"
+            },
+            {
+                "company_name": "Picpay",
+                "website": "https://picpay.gupy.io"
+            },
+            {
+                "company_name": "EmCasa",
+                "website": "https://emcasa.gupy.io"
+            },
+            {
+                "company_name": "Ambev Tech",
+                "website": "https://ambevtech.gupy.io"
+            },
+            {
+                "company_name": "Hi Platform",
+                "website": "https://hiplatform.gupy.io"
+            },
+            {
+                "company_name": "tembici",
+                "website": "https://tembici.gupy.io"
+            },
+            {
+                "company_name": "Take Blip",
+                "website": "https://takeblip.gupy.io"
+            },
+            {
+                "company_name": "Contabilizei",
+                "website": "https://contabilizei.gupy.io"
+            },
+            {
+                "company_name": "Dock",
+                "website": "https://dock.gupy.io"
+            },
+            {
+                "company_name": "Geek Hunter",
+                "website": "https://geekhunter.gupy.io"
+            },
+            {
+                "company_name":"Docket",
+                "website":"https://docket.gupy.io"
+            },
+            {
+                "company_name": "Conexa Saúde",
+                "website": "https://conexasaude.gupy.io"
+            },
+            {
+                "company_name": "Olist",
+                "website": "https://olist.gupy.io"
+            },
+            {
+                "company_name": "Warren Brasil",
+                "website": "https://warrenbrasil.gupy.io"
+            },
+            {
+                "company_name": "Maxmilhas",
+                "website": "https://maxmilhas.gupy.io"
+            },
+            {
+                "company_name": "Cortex",
+                "website": "https://cortex.gupy.io"
+            },
+            {
+                "company_name": "Superlógica",
+                "website": "https://superlogica.gupy.io"
+            }
+        ],
+        "kenoby": [
+            {
+                "company_name":"Guiabolso",
+                "website":"https://jobs.kenoby.com/guiabolso"
+            },
+            {
+                "company_name": "Softplan",
+                "website": "https://jobs.kenoby.com/softplan"
+            },
+            {
+                "company_name": "Exact Sales",
+                "website": "https://jobs.kenoby.com/exactsales"
+            },
+            {
+                "company_name": "Asaas",
+                "website": "https://jobs.kenoby.com/asaas"
+            },
+            {
+                "company_name": "Involves",
+                "website": "https://jobs.kenoby.com/involves"
+            },
+            {
+                "company_name": "Yuca",
+                "website": "https://jobs.kenoby.com/yuca"
+            },
+            {
+                "company_name": "Xerpa",
+                "website": "https://jobs.kenoby.com/xerpa"
+            },
+            {
+                "company_name": "Idwall",
+                "website": "https://jobs.kenoby.com/idwall"
+            },
+            {
+                "company_name": "KOIN",
+                "website": "https://jobs.kenoby.com/koin"
+            },
+            {
+                "company_name": "Cobli",
+                "website": "https://jobs.kenoby.com/cobli"
+            },
+            {
+                "company_name": "CargoX",
+                "website": "https://jobs.kenoby.com/cargox"
+            },
+            {
+                "company_name": "Conta Azul",
+                "website": "https://jobs.kenoby.com/contaazul"
+            }
+        ],
+        "greenhouse": [
+            {
+                "company_name": "Ebanx",
+                "website": "https://boards.greenhouse.io/ebanx"
+            },
+            {
+                "company_name": "Resultados Digitais",
+                "website": "https://boards.greenhouse.io/rdstation"
+            },
+            {
+                "company_name": "Creditas",
+                "website": "https://boards.greenhouse.io/creditas"
+            }
+        ],
+        "lever": [
+            {
+                "company_name": "Loft",
+                "website": "https://jobs.lever.co/loft"
+            }
+        ],
+        "workable": [
+            {
+                "company_name": "Quinto Andar",
+                "website": "https://quintoandar.workable.com/"
+            }
+        ],
+        "linkedin": [
+            {
+                "company_name": "Menu",
+                "website": "https://www.linkedin.com/company/vaidemenu/jobs/"
+            },
+            {
+                "company_name": "Looqbox",
+                "website": "https://www.linkedin.com/company/looqbox/jobs/"
+            },
+            {
+                "company_name": "Trademap",
+                "website": "https://www.linkedin.com/company/trademaphub/jobs/"
+            },
+            {
+                "company_name": "Sky.One Solutions",
+                "website": "https://www.linkedin.com/company/skyinone/jobs/"
+            }
+        ],
+        "others": [
+            {
+                "company_name": "Neon",
+                "website": "https://vagas.neon.com.br/"
+            },
+            {
+                "company_name": "Buser",
+                "website": "https://jobs.buser.com.br/"
+            },
+            {
+                "company_name": "Aquarela Analytics",
+                "website": "https://www.aquare.la/trabalhe-conosco/"
+            },
+            {
+                "company_name": "Zenklub",
+                "website": "https://zenklub.freshteam.com/jobs"
+            },
+            {
+                "company_name": "Loggi",
+                "website": "https://carreira.loggi.com/vagas/todas-vagas/"
+            },
+            {
+                "company_name": "Zoop",
+                "website": "https://carreira.loggi.com/vagas/todas-vagas/"
+            }
+        ]
+    }
+}
