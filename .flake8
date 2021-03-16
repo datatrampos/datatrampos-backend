@@ -1,0 +1,10 @@
+[flake8]
+exclude = 
+    migrations,
+    alembic,
+    settings.py,
+    htmlcov,
+    static,
+    .venv
+
+max-line-length = 90
