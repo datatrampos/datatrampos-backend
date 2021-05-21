@@ -13,6 +13,7 @@ jupyterlab = "*"
 beautifulsoup4 = "*"
 flake8 = "*"
 isort = "*"
+celery = "==4.4.0"
 
 [requires]
 python_version = "3.8"
