@@ -4,8 +4,9 @@ from bs4 import BeautifulSoup
 from urllib.request import urlopen, Request
 from .models import Job
 import json
+from django.conf import settings
 
-with open('/home/luisfarias/Documents/pessoal/datajobs/core/jobs.json') as file:
+with open(f'{settings.BASE_DIR}/core/jobs.json') as file:
     companies_list = json.load(file)
 
 gupy = companies_list["jobs_sources"]["gupy"]
