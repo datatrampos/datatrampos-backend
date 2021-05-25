@@ -1,8 +1,8 @@
-# datajobs
+# datatrampos
 
-Pasta do frontend (rodar comandos do node e react aqui):
+Para iniciar o Banco de dados:
 
-`cd frontend` 
+`docker-compose up`
 
 Para iniciar o servidor:
 
@@ -10,12 +10,12 @@ Para iniciar o servidor:
 
 Para criar as migrações
 
-`python manage.py makemigrations`  
+`python manage.py makemigrations`
 
 Para applicar as migrações
 
-`python manage.py migrate`  
+`python manage.py migrate`
 
 Python code styling:
 
-` flake8 . && isort . && black . `
+`make style`
