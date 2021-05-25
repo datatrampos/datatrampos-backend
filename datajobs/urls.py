@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.urls.conf import include
+
+from core.views import ListJobView
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", include("frontend.urls")),
+    path("", ListJobView.as_view()),
 ]
