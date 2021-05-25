@@ -1,1 +1,0 @@
-JOBS_FILE = '/datajobs/core/jobs.json'
