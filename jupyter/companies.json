@@ -1,0 +1,346 @@
+{
+    "jobs_sources": {
+        "gupy": [
+            {
+                "company_name": "Frete.com",
+                "website": "https://fretecom.gupy.io"
+            },
+            {
+                "company_name": "Aiqfome",
+                "website": "https://aiqfome.gupy.io"
+            },
+            {
+                "company_name": "Buser",
+                "website": "https://vemprabuser.gupy.io"
+            },
+            {
+                "company_name": "Hilab",
+                "website": "https://hilab.gupy.io"
+            },
+            {
+                "company_name": "Madeira Madeira",
+                "website": "https://madeiracarreira.gupy.io"
+            },
+            {
+                "company_name": "Picpay",
+                "website": "https://picpay.gupy.io"
+            },
+            {
+                "company_name": "Ambev Tech",
+                "website": "https://ambevtech.gupy.io"
+            },
+            {
+                "company_name": "Hi Platform",
+                "website": "https://hiplatform.gupy.io"
+            },
+            {
+                "company_name": "tembici",
+                "website": "https://tembici.gupy.io"
+            },
+            {
+                "company_name": "Take Blip",
+                "website": "https://takeblip.gupy.io"
+            },
+            {
+                "company_name": "Contabilizei",
+                "website": "https://contabilizei.gupy.io"
+            },
+            {
+                "company_name": "Dock",
+                "website": "https://dock.gupy.io"
+            },
+            {
+                "company_name": "Geek Hunter",
+                "website": "https://geekhunter.gupy.io"
+            },
+            {
+                "company_name": "Méliuz",
+                "website": "https://meliuz.gupy.io"
+            },
+            {
+                "company_name": "Docket",
+                "website": "https://docket.gupy.io"
+            },
+            {
+                "company_name": "Conexa Saúde",
+                "website": "https://conexasaude.gupy.io"
+            },
+            {
+                "company_name": "Olist",
+                "website": "https://olist.gupy.io"
+            },
+            {
+                "company_name": "Warren Brasil",
+                "website": "https://warrenbrasil.gupy.io"
+            },
+            {
+                "company_name": "Maxmilhas",
+                "website": "https://maxmilhas.gupy.io"
+            },
+            {
+                "company_name": "Infoprice",
+                "website": "https://infoprice.gupy.io"
+            },
+            {
+                "company_name": "Cortex",
+                "website": "https://cortex.gupy.io"
+            },
+            {
+                "company_name": "Superlógica",
+                "website": "https://superlogica.gupy.io"
+            },
+            {
+                "company_name": "Herospark",
+                "website": "https://herospark.gupy.io"
+            },
+            {
+                "company_name": "Gupy",
+                "website": "https://vempra.gupy.io"
+            },
+            {
+                "company_name": "Petlove",
+                "website": "https://petlove.gupy.io"
+            },
+            {
+                "company_name": "Datasprint",
+                "website": "https://datasprints.gupy.io"
+            },
+            {
+                "company_name": "Kovi",
+                "website": "https://kovi.gupy.io"
+            },
+            {
+                "company_name": "Appmax",
+                "website": "https://appmax.gupy.io"
+            },
+            {
+                "company_name": "Cobli",
+                "website": "https://cobli.gupy.io"
+            },
+            {
+                "company_name": "CargoX",
+                "website": "https://cargoxcarreira.gupy.io"
+            },
+            {
+                "company_name": "Omnichat",
+                "website": "https://omnichat.gupy.io"
+            },
+            {
+                "company_name": "Valemobi",
+                "website": "https://valemobi.gupy.io"
+            },
+            {
+                "company_name": "Sky.One Solutions",
+                "website": "https://skyone.gupy.io"
+            },
+            {
+                "company_name": "Solinftec",
+                "website": "https://solinftec.gupy.io"
+            },
+            {
+                "company_name": "Shopper",
+                "website": "https://shopper.gupy.io"
+            },
+            {
+                "company_name": "Omie",
+                "website": "https://carreirasomie.gupy.io"
+            },
+            {
+                "company_name": "C6 Bank",
+                "website": "https://c6bank.gupy.io"
+            },
+            {
+                "company_name": "Daki",
+                "website": "https://daki.gupy.io"
+            },
+            {
+                "company_name": "Pagseguro",
+                "website": "https://pagseguro.gupy.io"
+            },
+            {
+                "company_name": "Beep Saúde",
+                "website": "https://beepsaude.gupy.io"
+            }
+        ],
+        "kenoby": [
+            {
+                "company_name": "Pin People",
+                "website": "https://jobs.kenoby.com/pinpeople"
+            },
+            {
+                "company_name": "Guiabolso",
+                "website": "https://jobs.kenoby.com/guiabolso"
+            },
+            {
+                "company_name": "Softplan",
+                "website": "https://jobs.kenoby.com/softplan"
+            },
+            {
+                "company_name": "Skore",
+                "website": "https://jobs.kenoby.com/skore"
+            },
+            {
+                "company_name": "Exact Sales",
+                "website": "https://jobs.kenoby.com/exactsales"
+            },
+            {
+                "company_name": "Asaas",
+                "website": "https://jobs.kenoby.com/asaas"
+            },
+            {
+                "company_name": "Involves",
+                "website": "https://jobs.kenoby.com/involves"
+            },
+            {
+                "company_name": "Yuca",
+                "website": "https://jobs.kenoby.com/yuca"
+            },
+            {
+                "company_name": "Xerpa",
+                "website": "https://jobs.kenoby.com/xerpa"
+            },
+            {
+                "company_name": "Idwall",
+                "website": "https://jobs.kenoby.com/idwall"
+            },
+            {
+                "company_name": "Remessa Online",
+                "website": "https://jobs.kenoby.com/remessaonline"
+            },
+            {
+                "company_name": "KOIN",
+                "website": "https://jobs.kenoby.com/koin"
+            },
+            {
+                "company_name": "Sanar",
+                "website": "https://jobs.kenoby.com/sanar"
+            },
+            {
+                "company_name": "Youse",
+                "website": "https://jobs.kenoby.com/vagas-youse"
+            },
+            {
+                "company_name": "Conta Azul",
+                "website": "https://jobs.kenoby.com/contaazul"
+            },
+            {
+                "company_name": "Sinqia",
+                "website": "https://jobs.kenoby.com/sinqia"
+            },
+            {
+                "company_name": "Nelogica",
+                "website": "https://jobs.kenoby.com/nelogica"
+            }
+        ],
+        "greenhouse": [
+            {
+                "company_name": "Ebanx",
+                "website": "https://boards.greenhouse.io/ebanx"
+            },
+            {
+                "company_name": "Resultados Digitais",
+                "website": "https://boards.greenhouse.io/rdstation"
+            },
+            {
+                "company_name": "Creditas",
+                "website": "https://boards.greenhouse.io/creditas"
+            },
+            {
+                "company_name": "Nubank",
+                "website": "https://boards.greenhouse.io/nubank"
+            },
+            {
+                "company_name": "Descomplica",
+                "website": "https://boards.greenhouse.io/descomplica"
+            },
+            {
+                "company_name": "Cora",
+                "website": "https://boards.greenhouse.io/cora"
+            },
+            {
+                "company_name": "Alice",
+                "website": "https://boards.greenhouse.io/alice"
+            },
+            {
+                "company_name": "Merama",
+                "website": "https://boards.greenhouse.io/merama"
+            },
+            {
+                "company_name": "Ifood",
+                "website": "https://boards.greenhouse.io/ifoodcarreiras"
+            },
+            {
+                "company_name": "Stone",
+                "website": "https://boards.greenhouse.io/stone"
+            }
+        ],
+        "solides": [
+            {
+                "company_name": "Melhor Plano",
+                "website": "https://melhorplano.solides.jobs"
+            }
+        ],
+        "lever": [
+            {
+                "company_name": "Loft",
+                "website": "https://jobs.lever.co/loft"
+            },
+            {
+                "company_name": "Amaro",
+                "website": "https://jobs.lever.co/amaro"
+            },
+            {
+                "company_name": "Uber Cornershop",
+                "website": "https://jobs.lever.co/cornershopapp"
+            },
+            {
+                "company_name": "Quero Educação",
+                "website": "https://jobs.lever.co/quero.education"
+            },
+            {
+                "company_name": "Unico",
+                "website": "https://jobs.lever.co/unico"
+            },
+            {
+                "company_name": "Cloudwalk",
+                "website": "https://jobs.lever.co/cloudwalk"
+            },
+            {
+                "company_name": "Arco Educação",
+                "website": "https://jobs.lever.co/arcoeducacao"
+            }
+        ],
+        "workable": [
+            {
+                "company_name": "Quinto Andar",
+                "website": "https://quintoandar.workable.com/"
+            },
+            {
+                "company_name": "Loggi",
+                "website": "https://loggi.workable.com/"
+            },
+            {
+                "company_name": "Workable",
+                "website": "https://apply.workable.com/tiendanube-nuvemshop/"
+            }
+        ],
+        "others": [
+            {
+                "company_name": "Neon",
+                "website": "https://vagas.neon.com.br/"
+            },
+            {
+                "company_name": "Aquarela Analytics",
+                "website": "https://www.aquare.la/trabalhe-conosco/"
+            },
+            {
+                "company_name": "Zenklub",
+                "website": "https://zenklub.freshteam.com/jobs"
+            },
+            {
+                "company_name": "Zoop",
+                "website": "https://carreira.loggi.com/vagas/todas-vagas/"
+            }
+        ]
+    }
+}
