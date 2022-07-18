@@ -6,6 +6,10 @@
                 "website": "https://fretecom.gupy.io"
             },
             {
+                "company_name": "Asaas",
+                "website": "https://asaas.gupy.io/"
+            },
+            {
                 "company_name": "Aiqfome",
                 "website": "https://aiqfome.gupy.io"
             },
@@ -162,6 +166,10 @@
                 "website": "https://beepsaude.gupy.io"
             },
             {
+                "company_name": "Dr. Consulta",
+                "website": "https://drconsulta.gupy.io"
+            },
+            {
                 "company_name": "Tabas",
                 "website": "https://tabas.gupy.io"
             },
@@ -188,16 +196,36 @@
             {
                 "company_name": "Marvin",
                 "website": "https://vempramarvin.gupy.io"
+            },
+            {
+                "company_name": "Nude",
+                "website": "https://heynude.gupy.io"
+            },
+            {
+                "company_name": "Goomer",
+                "website": "https://goomer.gupy.io"
+            },
+            {
+                "company_name": "Escale",
+                "website": "https://escale.gupy.io"
+            },
+            {
+                "company_name": "Uello",
+                "website": "https://uello.gupy.io"
             }
         ],
         "kenoby": [
+            {
+                "company_name": "Terra Magna",
+                "website": "https://jobs.kenoby.com/terramagna"
+            },
             {
                 "company_name": "Pin People",
                 "website": "https://jobs.kenoby.com/pinpeople"
             },
             {
-                "company_name": "Guiabolso",
-                "website": "https://jobs.kenoby.com/guiabolso"
+                "company_name": "Flash Benefícios",
+                "website": "https://jobs.kenoby.com/flash"
             },
             {
                 "company_name": "Softplan",
@@ -212,8 +240,8 @@
                 "website": "https://jobs.kenoby.com/exactsales"
             },
             {
-                "company_name": "Asaas",
-                "website": "https://jobs.kenoby.com/asaas"
+                "company_name": "Quero Educação",
+                "website": "https://jobs.kenoby.com/quero-educacao"
             },
             {
                 "company_name": "Involves",
@@ -224,20 +252,12 @@
                 "website": "https://jobs.kenoby.com/yuca"
             },
             {
-                "company_name": "Xerpa",
-                "website": "https://jobs.kenoby.com/xerpa"
-            },
-            {
                 "company_name": "Idwall",
                 "website": "https://jobs.kenoby.com/idwall"
             },
             {
                 "company_name": "Remessa Online",
                 "website": "https://jobs.kenoby.com/remessaonline"
-            },
-            {
-                "company_name": "KOIN",
-                "website": "https://jobs.kenoby.com/koin"
             },
             {
                 "company_name": "Sanar",
@@ -304,6 +324,14 @@
             {
                 "company_name": "BHub",
                 "website": "https://boards.greenhouse.io/bhub"
+            },
+            {
+                "company_name": "Loft",
+                "website": "https://boards.greenhouse.io/loftvagas"
+            },
+            {
+                "company_name": "Zenvia",
+                "website": "https://boards.greenhouse.io/zenvia"
             }
         ],
         "solides": [
@@ -314,16 +342,12 @@
         ],
         "lever": [
             {
-                "company_name": "Loft",
-                "website": "https://jobs.lever.co/loft"
+                "company_name": "Trela",
+                "website": "https://jobs.lever.co/trela"
             },
             {
                 "company_name": "Uber Cornershop",
                 "website": "https://jobs.lever.co/cornershopapp"
-            },
-            {
-                "company_name": "Quero Educação",
-                "website": "https://jobs.lever.co/quero.education"
             },
             {
                 "company_name": "Unico",
