@@ -10,6 +10,7 @@ from companies.models import Company
 
 TERMS = ["BI", "Business Intelligence", "Python", "Data", "Dados", "Analysis", "Data Analyst",
          "Analytics", "Machine Learning", "ML", "Intelligence", "Fraud", "Artificial", "AI"]
+
 EXCEPTIONS = []
 
 with open(r'./jobs/management/commands/companies.json') as file:
@@ -51,8 +52,13 @@ class Command(BaseCommand):
 
         for company in GUPY_URLs:
             print(company['website'])
-            website = urlopen(company['website'])
-
+            
+            try:
+                website = urlopen(company['website'])
+            except Exception as e:
+                print(e)
+                continue
+                
             bs = BeautifulSoup(website, 'html.parser')
 
             try:
