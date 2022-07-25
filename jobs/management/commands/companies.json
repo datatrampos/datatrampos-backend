@@ -150,10 +150,6 @@
                 "website": "https://carreirasomie.gupy.io"
             },
             {
-                "company_name": "C6 Bank",
-                "website": "https://c6bank.gupy.io"
-            },
-            {
                 "company_name": "Daki",
                 "website": "https://daki.gupy.io"
             },
@@ -332,6 +328,10 @@
             {
                 "company_name": "Zenvia",
                 "website": "https://boards.greenhouse.io/zenvia"
+            },
+            {
+                "company_name": "C6 Bank",
+                "website": "https://boards.greenhouse.io/c6bank"
             }
         ],
         "solides": [
