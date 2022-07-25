@@ -47,6 +47,17 @@ INSTALLED_APPS = [
     'rest_framework'
 ]
 
+REST_FRAMEWORK = {
+    'DEAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthetication',
+        'rest_framework_authentication.BasicAuthentication',
+        'ret_framework.authentication.TokenAuthentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+}
+
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
