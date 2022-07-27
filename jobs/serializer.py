@@ -1,3 +1,4 @@
+from attr import field
 from rest_framework import serializers
 from jobs.models import Job
 from companies.serializer import CompanySerializer
@@ -9,9 +10,17 @@ class JobSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Job
-        fields = ['id', 'title',
+        fields = ['location',
+                  'url',
+                  'title',
                   'company',
                   'remote',
                   'date',
-                  'location',
-                  'seniority', 'url']
+                  'seniority']
+
+
+class LocationSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Job
+        fields = ['location']

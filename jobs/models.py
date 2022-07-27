@@ -4,7 +4,7 @@ from companies.models import Company
 
 
 class Job(models.Model):
-    url = models.CharField(max_length=255, unique=True)
+    url = models.CharField(max_length=255, unique=True, primary_key=True)
     title = models.CharField(max_length=250)
     company = models.ForeignKey(to=Company, on_delete=models.CASCADE)
     remote = models.BooleanField(default=None)

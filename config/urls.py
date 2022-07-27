@@ -6,6 +6,7 @@ from rest_framework import routers
 
 router = routers.DefaultRouter()
 router.register(r'jobs', JobsViewSet, basename='Job')
+# router.register(r'locations', LocationsViewSet, basename='Locations')
 router.register(r'companies', CompaniesViewSet, basename='Company')
 
 urlpatterns = [
