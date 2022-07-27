@@ -143,3 +143,4 @@ files/
 postgres-data/
 .ipynb_checkpoints
 postgres-data/
+.vscode

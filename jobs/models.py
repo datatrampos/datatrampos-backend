@@ -1,5 +1,7 @@
-from django.db import models
 import datetime
+
+from django.db import models
+
 from companies.models import Company
 
 
