@@ -10,13 +10,13 @@ from jobs.pagination import CustomJobsResultsSetPagination
 
 
 class JobsViewSet(viewsets.ModelViewSet):
-    # queryset = Job.objects.filter(active=True).order_by('-date')
+    # queryset = Job.objects.filter(active=True)
     serializer_class = JobSerializer
     permission_classes = (AllowAny,)
     pagination_class = CustomJobsResultsSetPagination
 
     def get_queryset(self):
-        queryset = Job.objects.filter(active=True).order_by("-date")
+        queryset = Job.objects.filter(active=True)
         company = self.request.query_params.get("company")
         remote = self.request.query_params.get("remote")
         order_by = self.request.query_params.get("orderBy")
@@ -31,7 +31,9 @@ class JobsViewSet(viewsets.ModelViewSet):
         if order_by == "title":
             queryset = queryset.order_by("title")
         if order_by == "company":
-            queryset = queryset.order_by("company")
+            queryset = queryset.order_by("company__name")
+        if order_by == "date":
+            queryset = queryset.order_by("-date")
         if location:
             queryset = queryset.filter(location=location)
 
