@@ -27,7 +27,8 @@ SECRET_KEY = "django-insecure-jw!#hd$pyiwheqx$@d4y2457797d%jv!!zf+8(@oc7mn)#v5$s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="", cast=lambda x: [i.strip() for i in x.split(",")])
+ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="", cast=lambda x: [
+                       i.strip() for i in x.split(",")])
 CORS_ALLOWED_ORIGINS = [
     "https://datatrampos-web.herokuapp.com",
     "https://www.datatrampos.com.br",
@@ -53,11 +54,6 @@ INSTALLED_APPS = [
 ]
 
 REST_FRAMEWORK = {
-    "DEAULT_AUTHENTICATION_CLASSES": (
-        "rest_framework_simplejwt.authentication.JWTAuthetication",
-        "rest_framework_authentication.BasicAuthentication",
-        "rest_framework.authentication.TokenAuthentication",
-    ),
     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
 }
 

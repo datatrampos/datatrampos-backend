@@ -2,7 +2,6 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 
 from rest_framework import viewsets
-from rest_framework.permissions import AllowAny
 
 from jobs.models import Job
 from jobs.serializer import JobSerializer
@@ -12,7 +11,6 @@ from jobs.pagination import CustomJobsResultsSetPagination
 class JobsViewSet(viewsets.ModelViewSet):
     # queryset = Job.objects.filter(active=True)
     serializer_class = JobSerializer
-    permission_classes = (AllowAny,)
     pagination_class = CustomJobsResultsSetPagination
     http_method_names = ['get']
 
