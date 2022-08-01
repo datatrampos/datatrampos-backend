@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 import django_heroku
 from pathlib import Path
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -26,8 +27,11 @@ SECRET_KEY = "django-insecure-jw!#hd$pyiwheqx$@d4y2457797d%jv!!zf+8(@oc7mn)#v5$s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="", cast=lambda x: [i.strip() for i in x.split(",")])
 CORS_ALLOWED_ORIGINS = [
+    "https://datatrampos-web.herokuapp.com",
+    "https://www.datatrampos.com.br",
+    "https://datatrampos.com.br",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
 ]
