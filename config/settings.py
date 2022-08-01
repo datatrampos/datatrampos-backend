@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-jw!#hd$pyiwheqx$@d4y2457797d%jv!!zf+8(@oc7mn)#v5$s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost', 'datatrampos-web.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'https://datatrampos-web.herokuapp.com/']
 
 
 # Application definition
