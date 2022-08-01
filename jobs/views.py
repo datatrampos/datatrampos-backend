@@ -40,7 +40,6 @@ class JobsViewSet(viewsets.ModelViewSet):
 
 
 class LocationsView(APIView):
-    permission_classes = (AllowAny,)
 
     def get(self, request, format=None):
         queryset = (
