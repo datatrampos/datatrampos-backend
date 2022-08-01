@@ -27,24 +27,7 @@ SECRET_KEY = "django-insecure-jw!#hd$pyiwheqx$@d4y2457797d%jv!!zf+8(@oc7mn)#v5$s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = config("ALLOWED_HOSTS", default="", cast=lambda x: [
-                       i.strip() for i in x.split(",")])
-CORS_ALLOWED_ORIGINS = [
-    "https://datatrampos-web.herokuapp.com",
-    "https://www.datatrampos.com.br",
-    "https://datatrampos.com.br",
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-]
-
-CORS_ALLOW_HEADERS = (
-        'x-requested-with',
-        'content-type',
-        'accept',
-        'origin',
-        'authorization',
-        'x-csrftoken'
-)
+ALLOWED_HOSTS = ['localhost', 'datatrampos-web.herokuapp.com']
 
 
 # Application definition
