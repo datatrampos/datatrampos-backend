@@ -8,3 +8,4 @@ class CompaniesViewSet(viewsets.ModelViewSet):
     queryset = Company.objects.all()
     serializer_class = CompanySerializer
     permission_classes = (AllowAny,)
+    http_method_names = ['get']

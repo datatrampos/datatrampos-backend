@@ -14,6 +14,7 @@ class JobsViewSet(viewsets.ModelViewSet):
     serializer_class = JobSerializer
     permission_classes = (AllowAny,)
     pagination_class = CustomJobsResultsSetPagination
+    http_method_names = ['get']
 
     def get_queryset(self):
         queryset = Job.objects.filter(active=True)
