@@ -2,7 +2,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
 
-from jobs.management.commands._private import RegisterJobs
+from jobs.management.commands._private import fix_workplace_name, save_company, save_job
 from companies.models import Company
 
 
@@ -22,20 +22,16 @@ class Gupy():
         except Exception:
             urls = [None, " ", " "]
 
-        company, _ = Company.objects.get_or_create(
-            url=company_url,
-            defaults={
-                "name": company_name,
-                "website": urls[0],
-                "linkedin": urls[1] if "linkedin" in urls[1] else None,
-                "glassdoor": urls[-1] if "glassdoor" in urls[-1] else None,
-                "logo": logo_bin,
-            },
-        )
+        website = urls[0]
+        linkedin = urls[1] if "linkedin" in urls[1] else None
+        glassdoor = urls[-1] if "glassdoor" in urls[-1] else None
+
+        company = save_company(company_url=company_url, company_name=company_name,
+                               website=website, glassdoor=glassdoor, linkedin=linkedin, logo_bin=logo_bin)
         return company
 
     def get_job(self, company, terms, exceptions):
-        
+
         job_urls_list = []
 
         print(company["website"])
@@ -59,25 +55,28 @@ class Gupy():
 
         for row in rows:
 
-            a = row.find("a", href=True)
-            workplace = row["data-workplace"]
-            remote = row["data-remote"]
             data = row.find("h4")
             role = data.find("span").text
-            roleSplited = re.sub(r"[,.;@#?!/&$)(-]+\|*", " ", role).lower().split()
+            roleSplited = re.sub('[,.;@#?!/\|&$)(-]+\|*', ' ', role).lower().split()
 
             for term in terms:
                 if all(elem in roleSplited for elem in term.lower().split()):
                     if not any(e in role for e in exceptions):
+                        a = row.find("a", href=True)
+                        workplace = row["data-workplace"]
+                        workplace_parsed = fix_workplace_name(
+                            workplace) if workplace != '' else ''
+                        remote = row["data-remote"]
 
-                        remote_status = remote.lower() in ["true", "1", "t", "y", "yes", "True"]
+                        remote_status = remote.lower() in [
+                            "true", "1", "t", "y", "yes", "True"]
                         try:
-                            RegisterJobs.save_job(
-                                title=role, url=company["website"] + a["href"], remote=remote_status, location=workplace, company=c)
+                            save_job(
+                                title=role, url=company["website"] + a["href"], remote=remote_status, location=workplace_parsed, company=c)
 
                         except Exception as e:
                             print(e)
 
                         job_urls_list.append(company["website"] + a["href"])
-                        
+
         return job_urls_list

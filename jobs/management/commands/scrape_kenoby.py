@@ -3,7 +3,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
 
-from jobs.management.commands._private import RegisterJobs
+from jobs.management.commands._private import save_company, save_job, fix_workplace_name, remote_show, is_kenoby_icon
 from companies.models import Company
 
 
@@ -17,7 +17,10 @@ class Kenoby():
         soup = BeautifulSoup(company_page, "html.parser")
 
         logo = soup.find("link", rel="shortcut icon")['href']
-        logo_bin = urlopen(logo).read()
+        if is_kenoby_icon(logo) == False:
+            logo_bin = urlopen(logo.read())
+        else:
+            logo_bin = None
 
         try:
             website = soup.find('a', {"title", "Site"})['href']
@@ -34,21 +37,13 @@ class Kenoby():
         except:
             linkedin = None
 
-        company, _ = Company.objects.get_or_create(
-            url=company_url,
-            defaults={
-                "name": company_name,
-                "website": website,
-                "linkedin": linkedin,
-                "glassdoor": glassdoor,
-                "logo": logo_bin,
-            },
-        )
+        company = save_company(company_url=company_url, company_name=company_name,
+                               website=website, glassdoor=glassdoor, linkedin=linkedin, logo_bin=logo_bin)
+
         return company
 
     def get_job(self, company, terms, exceptions):
         job_urls_list = []
-        auxiliar_remote_terms = ["remoto", "remote"]
 
         print(company["website"])
 
@@ -70,19 +65,20 @@ class Kenoby():
             position = segment.find('div', {'class': 'positions'})
             for job in position.find_all('a'):
                 role = job['data-title']
-                roleSplited = re.sub(r"[,.;@#?!/&$)(-]+\|*",
-                                     " ", role).lower().split()
+                roleSplited = re.sub('[,.;@#?!/\|&$)(-]+\|*', ' ', role).lower().split()
                 for term in terms:
                     if all(elem in roleSplited for elem in term.lower().split()):
                         if not any(e in role for e in exceptions):
                             workplace = job['data-city']
                             state = job['data-state']
-                            remote_status = True if any(appear in auxiliar_remote_terms for appear in roleSplited +
-                                                        workplace.lower().split()+state.lower().split()) else False
+                            remote_status = remote_show(role) or remote_show(
+                                workplace) or remote_show(state)
 
+                            workplace_parsed = fix_workplace_name(
+                                workplace) if workplace != '' else ''
                             try:
-                                RegisterJobs.save_job(
-                                    title=role, url=job['href'], remote=remote_status, location=workplace, company=c)
+                                save_job(
+                                    title=role, url=job['href'], remote=remote_status, location=workplace_parsed, company=c)
 
                             except Exception as e:
                                 print(e)

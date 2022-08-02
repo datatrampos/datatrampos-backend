@@ -1,4 +1,5 @@
 import json
+from urllib.error import HTTPError
 from django.core.management.base import BaseCommand
 from django.db.models import Q
 
@@ -39,17 +40,20 @@ class Command(BaseCommand):
         kenoby_scraper = Kenoby()
 
         for company in companies_list['jobs_sources']:
+            try:
+                if company['source'] == 'gupy':
+                    active_jobs_gupy = gupy_scraper.get_job(
+                        company=company, terms=TERMS, exceptions=EXCEPTIONS)
+                    LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_gupy)
 
-            if company['source'] == 'gupy':
-                active_jobs_gupy = gupy_scraper.get_job(
-                    company=company, terms=TERMS, exceptions=EXCEPTIONS)
-                LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_gupy)
-
-            elif company['source'] == 'kenoby':
-                active_jobs_kenoby = kenoby_scraper.get_job(company=company, terms=TERMS,
-                                                            exceptions=EXCEPTIONS)
-                LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_kenoby)
-            else:
+                elif company['source'] == 'kenoby':
+                    active_jobs_kenoby = kenoby_scraper.get_job(company=company, terms=TERMS,
+                                                                exceptions=EXCEPTIONS)
+                    LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_kenoby)
+                else:
+                    continue
+            except HTTPError:
+                print(company['website'] + ' -> source is broken')
                 continue
 
         Job.objects.filter(~Q(url__in=LIST_OF_ACTIVE_JOB_URLS)
