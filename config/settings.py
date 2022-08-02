@@ -37,7 +37,7 @@ CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
     'http://datatrampos-web.herokuapp.com',
-    'https://datatrampos-web.herokuapp.com'
+    'https://datatrampos-web.herokuapp.com',
     'http://localhost:5000',
 
 )
