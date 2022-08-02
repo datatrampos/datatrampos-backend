@@ -19,8 +19,8 @@ def save_job(title, url,  remote, location, company):
     print("%s added" % (title,))
 
 
-def save_company(company_url, company_name, website, linkedin, glassdoor, logo_bin):
-    company, _ = Company.objects.update_or_create(
+def update_get_company(company_url, company_name, website, linkedin, glassdoor, logo_bin):
+    Company.objects.update_or_create(
         url=company_url,
         defaults={
             "name": company_name,
@@ -30,6 +30,8 @@ def save_company(company_url, company_name, website, linkedin, glassdoor, logo_b
             "logo": logo_bin,
         },
     )
+
+    company = Company.objects.get(url=company_url)
 
     return company
 

@@ -2,8 +2,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
 
-from jobs.management.commands._private import fix_workplace_name, save_company, save_job
-from companies.models import Company
+from jobs.management.commands._private import fix_workplace_name, update_get_company, save_job
 
 
 class Gupy():
@@ -26,7 +25,7 @@ class Gupy():
         linkedin = urls[1] if "linkedin" in urls[1] else None
         glassdoor = urls[-1] if "glassdoor" in urls[-1] else None
 
-        company = save_company(company_url=company_url, company_name=company_name,
+        company = update_get_company(company_url=company_url, company_name=company_name,
                                website=website, glassdoor=glassdoor, linkedin=linkedin, logo_bin=logo_bin)
         return company
 

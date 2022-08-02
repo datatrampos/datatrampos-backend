@@ -3,7 +3,7 @@ from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
 
-from jobs.management.commands._private import save_company, save_job, fix_workplace_name, remote_show, is_kenoby_icon
+from jobs.management.commands._private import update_get_company, save_job, fix_workplace_name, remote_show, is_kenoby_icon
 from companies.models import Company
 
 
@@ -18,7 +18,7 @@ class Kenoby():
 
         logo = soup.find("link", rel="shortcut icon")['href']
         if is_kenoby_icon(logo) == False:
-            logo_bin = urlopen(logo.read())
+            logo_bin = urlopen(logo).read()
         else:
             logo_bin = None
 
@@ -37,8 +37,8 @@ class Kenoby():
         except:
             linkedin = None
 
-        company = save_company(company_url=company_url, company_name=company_name,
-                               website=website, glassdoor=glassdoor, linkedin=linkedin, logo_bin=logo_bin)
+        company = update_get_company(company_url=company_url, company_name=company_name,
+                                     website=website, glassdoor=glassdoor, linkedin=linkedin, logo_bin=logo_bin)
 
         return company
 
