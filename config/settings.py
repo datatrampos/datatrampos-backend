@@ -13,6 +13,9 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 import django_heroku
 from pathlib import Path
 from decouple import config
+import os
+
+from traitlets import default
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +28,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-jw!#hd$pyiwheqx$@d4y2457797d%jv!!zf+8(@oc7mn)#v5$s"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = config('DEBUG', cast=bool, default=False)
 
 ALLOWED_HOSTS = ['localhost', 'https://datatrampos-web.herokuapp.com/']
 
