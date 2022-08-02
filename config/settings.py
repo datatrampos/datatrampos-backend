@@ -29,8 +29,8 @@ SECRET_KEY = "django-insecure-jw!#hd$pyiwheqx$@d4y2457797d%jv!!zf+8(@oc7mn)#v5$s
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', cast=bool, default=False)
 
-ALLOWED_HOSTS = ['http://localhost:3000',
-                 'https://datatrampos-web.herokuapp.com', 'http://datatrampos-web.herokuapp.com']
+ALLOWED_HOSTS = ['http://localhost:3000', 'https://datatrampos-web.herokuapp.com',
+                 'http://datatrampos-web.herokuapp.com', 'https://datatrampos.com.br', 'https://www.datatrampos.com.br']
 
 
 CORS_ORIGIN_ALLOW_ALL = False
@@ -38,8 +38,8 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'http://datatrampos-web.herokuapp.com',
     'https://datatrampos-web.herokuapp.com',
-    'http://localhost:5000',
-
+    'http://localhost:3000',
+    'https://datatrampos.com.br', 'https://www.datatrampos.com.br'
 )
 
 
