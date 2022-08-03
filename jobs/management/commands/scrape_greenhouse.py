@@ -17,7 +17,7 @@ class Greenhouse():
         try:
             logo_div = soup.find("div", {"id": "logo"})
             logo = logo_div.find("img")["src"]
-            logo_bin = urlopen(logo).read()
+            logo_bin = urlopen(logo).read() if '.gif' not in logo else None
         except:
             logo_bin = None
 
