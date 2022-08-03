@@ -7,6 +7,7 @@ from jobs.models import Job
 from companies.models import Company
 from jobs.management.commands.scrape_kenoby import Kenoby
 from jobs.management.commands.scrape_gupy import Gupy
+from jobs.management.commands.scrape_greenhouse import Greenhouse
 
 TERMS = [
     "BI",
@@ -38,6 +39,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         gupy_scraper = Gupy()
         kenoby_scraper = Kenoby()
+        greenhouse_scraper = Greenhouse()
 
         for company in companies_list['jobs_sources']:
             try:
@@ -50,6 +52,11 @@ class Command(BaseCommand):
                     active_jobs_kenoby = kenoby_scraper.get_job(company=company, terms=TERMS,
                                                                 exceptions=EXCEPTIONS)
                     LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_kenoby)
+
+                elif company['source'] == 'greenhouse':
+                    active_jobs_greenhouse = greenhouse_scraper.get_job(company=company, terms=TERMS,
+                                                                        exceptions=EXCEPTIONS)
+                    LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_greenhouse)
                 else:
                     continue
             except HTTPError:
