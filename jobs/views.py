@@ -45,7 +45,6 @@ class LocationsView(APIView):
         queryset = (
             Job.objects.distinct("location")
             .filter(active=True)
-            .order_by("company__name")
             .exclude(location="")
             .values_list("location", flat=True)
         )
