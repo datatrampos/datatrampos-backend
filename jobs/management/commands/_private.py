@@ -38,7 +38,6 @@ def update_get_company(company_url, company_name, website, linkedin, glassdoor, 
 
 def fix_workplace_name(text):
     SP_MAP = ['são paulo', 'sao paulo']
-    RJ_MAP = ['rio de janeiro']
     BR_MAP = ['brasil', 'brazil']
 
     remote_hybrid_map_words = ['Remoto', 'remote', 'Remote', 'Híbrido',
@@ -51,9 +50,11 @@ def fix_workplace_name(text):
         if sp in text.lower():
             return "São Paulo"
 
-    for rj in RJ_MAP:
-        if rj in text.lower():
-            return "Rio de Janeiro"
+    if "curitiba" in text.lower():
+        return "Curitiba"
+
+    if "rio de janeiro" in text.lower():
+        return "Rio de Janeiro"
 
     if text.lower() in BR_MAP:
         return "Brasil"
