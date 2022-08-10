@@ -48,7 +48,7 @@ class Gupy():
         except Exception as e:
             print(e)
 
-        job_list = bs.find("div", {"class": "job-list"})
+        job_list = bs.find("div", {"class": "job-list jobs-to-filter"})
         table = job_list.find("table")
         rows = table.find_all("tr")
 
