@@ -59,8 +59,9 @@ class Command(BaseCommand):
                     LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_greenhouse)
                 else:
                     continue
-            except HTTPError:
-                print(company['website'] + ' -> source is broken')
+            except Exception as e:
+                print("\033[93m" + company['website'] + " -> source is broken" + "\033[0m" )
+                print(e)
                 continue
 
         Job.objects.filter(~Q(url__in=LIST_OF_ACTIVE_JOB_URLS)
