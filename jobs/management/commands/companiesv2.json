@@ -11,6 +11,11 @@
             "website": "https://boards.greenhouse.io/alice"
         },
         {
+            "company_name": "Ambar",
+            "source": "gupy",
+            "website": "https://ambartech.gupy.io"
+        },
+        {
             "company_name": "Ambev Tech",
             "source": "gupy",
             "website": "https://ambevtech.gupy.io"
@@ -19,6 +24,11 @@
             "company_name": "Appmax",
             "source": "gupy",
             "website": "https://appmax.gupy.io"
+        },
+        {
+            "company_name": "Arco Educação",
+            "source": "lever",
+            "website": "https://jobs.lever.co/arcoeducacao"
         },
         {
             "company_name": "Asaas",
@@ -56,6 +66,11 @@
             "website": "https://cielo.gupy.io"
         },
         {
+            "company_name": "Cloudwalk",
+            "source": "lever",
+            "website": "https://jobs.lever.co/cloudwalk"
+        },
+        {
             "company_name": "Cobli",
             "source": "gupy",
             "website": "https://cobli.gupy.io"
@@ -81,6 +96,11 @@
             "website": "https://boards.greenhouse.io/cora"
         },
         {
+            "company_name": "Cornershop by Uber",
+            "source": "lever",
+            "website": "https://jobs.lever.co/cornershopapp"
+        },
+        {
             "company_name": "Cortex",
             "source": "gupy",
             "website": "https://cortex.gupy.io"
@@ -89,6 +109,11 @@
             "company_name": "Creditas",
             "source": "greenhouse",
             "website": "https://boards.greenhouse.io/creditas"
+        },
+        {
+            "company_name": "Credz",
+            "source": "Kenoby",
+            "website": "https://jobs.kenoby.com/crediz"
         },
         {
             "company_name": "Dadosfera",
@@ -291,6 +316,11 @@
             "website": "https://jobs.kenoby.com/pinpeople"
         },
         {
+            "company_name": "Pravaler",
+            "source": "gupy",
+            "website": "https://pravaler.gupy.io"
+        },
+        {
             "company_name": "Quero Educação",
             "source": "kenoby",
             "website": "https://jobs.kenoby.com/quero-educacao"
@@ -369,6 +399,11 @@
             "company_name": "Uello",
             "source": "gupy",
             "website": "https://uello.gupy.io"
+        },
+        {
+            "company_name": "Unico",
+            "source": "lever",
+            "website": "https://jobs.lever.co/unico"
         },
         {
             "company_name": "Valemobi",
