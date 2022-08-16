@@ -131,6 +131,11 @@
             "website": "https://boards.greenhouse.io/descomplica"
         },
         {
+            "company_name": "Digibee",
+            "source": "greenhouse",
+            "website": "https://boards.greenhouse.io/digibeeinc"
+        },
+        {
             "company_name": "Dock",
             "source": "gupy",
             "website": "https://dock.gupy.io"
@@ -294,6 +299,11 @@
             "company_name": "Omie",
             "source": "gupy",
             "website": "https://carreirasomie.gupy.io"
+        },
+        {
+            "company_name": "Open Co",
+            "source": "gupy",
+            "website": "https://open-co.gupy.io"
         },
         {
             "company_name": "Pagseguro",
