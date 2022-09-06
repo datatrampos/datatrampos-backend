@@ -56,6 +56,11 @@
             "website": "https://boards.greenhouse.io/c6bank"
         },
         {
+            "company_name": "Caju Benefícios",
+            "source": "gupy",
+            "website": "https://caju.gupy.io"
+        },
+        {
             "company_name": "CargoX",
             "source": "gupy",
             "website": "https://cargoxcarreira.gupy.io"
@@ -161,11 +166,6 @@
             "website": "https://escale.gupy.io"
         },
         {
-            "company_name": "Exact Sales",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/exactsales"
-        },
-        {
             "company_name": "Flash Benefícios",
             "source": "kenoby",
             "website": "https://jobs.kenoby.com/flash"
@@ -214,11 +214,6 @@
             "company_name": "Ifood",
             "source": "greenhouse",
             "website": "https://boards.greenhouse.io/ifoodcarreiras"
-        },
-        {
-            "company_name": "Infoprice",
-            "source": "gupy",
-            "website": "https://infoprice.gupy.io"
         },
         {
             "company_name": "Inventa",
@@ -274,11 +269,6 @@
             "company_name": "Nelogica",
             "source": "kenoby",
             "website": "https://jobs.kenoby.com/nelogica"
-        },
-        {
-            "company_name": "Nomad",
-            "source": "gupy",
-            "website": "https://nomadcarreiras.gupy.io"
         },
         {
             "company_name": "Nubank",
