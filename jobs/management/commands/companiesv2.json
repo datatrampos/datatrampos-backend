@@ -6,11 +6,6 @@
             "website": "https://aiqfome.gupy.io"
         },
         {
-            "company_name": "Alice",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/alice"
-        },
-        {
             "company_name": "Ambar",
             "source": "gupy",
             "website": "https://ambartech.gupy.io"
@@ -82,8 +77,8 @@
         },
         {
             "company_name": "Conta Azul",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/contaazul"
+            "source": "gupy",
+            "website": "https://contaazulcarreira.gupy.io"
         },
         {
             "company_name": "Contabilizei",
@@ -112,8 +107,8 @@
         },
         {
             "company_name": "Credz",
-            "source": "Kenoby",
-            "website": "https://jobs.kenoby.com/crediz"
+            "source": "gupy",
+            "website": "https://credz.gupy.io"
         },
         {
             "company_name": "Dadosfera",
@@ -157,8 +152,8 @@
         },
         {
             "company_name": "Flash Benefícios",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/flash"
+            "source": "gupy",
+            "website": "https://flash.gupy.io"
         },
         {
             "company_name": "Frete.com",
@@ -197,8 +192,8 @@
         },
         {
             "company_name": "Idwall",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/idwall"
+            "source": "gupy",
+            "website": "https://idwall.gupy.io"
         },
         {
             "company_name": "Ifood",
@@ -212,8 +207,8 @@
         },
         {
             "company_name": "Involves",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/involves"
+            "source": "gupy",
+            "website": "https://involves.gupy.io"
         },
         {
             "company_name": "Knewin",
@@ -257,8 +252,8 @@
         },
         {
             "company_name": "Nelogica",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/nelogica"
+            "source": "gupy",
+            "website": "https://nelogica.gupy.io"
         },
         {
             "company_name": "Nubank",
@@ -293,12 +288,7 @@
         {
             "company_name": "Picpay",
             "source": "gupy",
-            "website": "https://picpay.gupy.io"
-        },
-        {
-            "company_name": "Pin People",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/pinpeople"
+            "website": "https://boards.greenhouse.io/picpay"
         },
         {
             "company_name": "Pravaler",
@@ -307,23 +297,13 @@
         },
         {
             "company_name": "Quero Educação",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/quero-educacao"
-        },
-        {
-            "company_name": "Remessa Online",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/remessaonline"
+            "source": "gupy",
+            "website": "https://quero-educacao.gupy.io"
         },
         {
             "company_name": "Resultados Digitais",
             "source": "greenhouse",
             "website": "https://boards.greenhouse.io/rdstation"
-        },
-        {
-            "company_name": "Sanar",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/sanar"
         },
         {
             "company_name": "Shopper",
@@ -332,13 +312,8 @@
         },
         {
             "company_name": "Sinqia",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/sinqia"
-        },
-        {
-            "company_name": "Skore",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/skore"
+            "source": "gupy",
+            "website": "https://sinqia.gupy.io"
         },
         {
             "company_name": "Sky.One Solutions",
@@ -347,8 +322,8 @@
         },
         {
             "company_name": "Softplan",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/softplan"
+            "source": "gupy",
+            "website": "https://softplan.gupy.io"
         },
         {
             "company_name": "Solinftec",
@@ -377,8 +352,8 @@
         },
         {
             "company_name": "Terra Magna",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/terramagna"
+            "source": "gupy",
+            "website": "https://terramagna.gupy.io"
         },
         {
             "company_name": "Uello",
@@ -399,16 +374,6 @@
             "company_name": "Warren Brasil",
             "source": "gupy",
             "website": "https://warrenbrasil.gupy.io"
-        },
-        {
-            "company_name": "Youse",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/vagas-youse"
-        },
-        {
-            "company_name": "Yuca",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/yuca"
         },
         {
             "company_name": "Zenvia",
