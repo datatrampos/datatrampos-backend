@@ -5,7 +5,6 @@ from django.db.models import Q
 
 from jobs.models import Job
 from companies.models import Company
-from jobs.management.commands.scrape_kenoby import Kenoby
 from jobs.management.commands.scrape_gupy import Gupy
 from jobs.management.commands.scrape_greenhouse import Greenhouse
 
@@ -38,7 +37,6 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         gupy_scraper = Gupy()
-        kenoby_scraper = Kenoby()
         greenhouse_scraper = Greenhouse()
 
         for company in companies_list['jobs_sources']:
@@ -48,11 +46,6 @@ class Command(BaseCommand):
                         company=company, terms=TERMS, exceptions=EXCEPTIONS)
                     LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_gupy)
 
-                elif company['source'] == 'kenoby':
-                    active_jobs_kenoby = kenoby_scraper.get_job(company=company, terms=TERMS,
-                                                                exceptions=EXCEPTIONS)
-                    LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_kenoby)
-
                 elif company['source'] == 'greenhouse':
                     active_jobs_greenhouse = greenhouse_scraper.get_job(company=company, terms=TERMS,
                                                                         exceptions=EXCEPTIONS)
@@ -61,7 +54,6 @@ class Command(BaseCommand):
                     continue
             except Exception as e:
                 print("\033[93m" + company['website'] + " -> source is broken" + "\033[0m" )
-                print(e)
                 continue
 
         Job.objects.filter(~Q(url__in=LIST_OF_ACTIVE_JOB_URLS)

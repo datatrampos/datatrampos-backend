@@ -66,7 +66,3 @@ def remote_show(text):
     remote_map_words = ['remoto', 'remote']
     text_splitted = re.sub('[,.;@#?!/\|&$)(-]+\|*', ' ', text).lower().split()
     return any(item in remote_map_words for item in text_splitted)
-
-
-def is_kenoby_icon(href):
-    return href == 'https://jobs.kenoby.com/assets/images/favicon.png'
