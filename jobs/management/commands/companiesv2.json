@@ -28,7 +28,12 @@
         {
             "company_name": "Asaas",
             "source": "gupy",
-            "website": "https://asaas.gupy.io/"
+            "website": "https://asaas.gupy.io"
+        },
+        {
+            "company_name": "Azos",
+            "source": "kenoby",
+            "website": "https://jobs.kenoby.com/azos"
         },
         {
             "company_name": "BHub",
@@ -49,6 +54,11 @@
             "company_name": "C6 Bank",
             "source": "greenhouse",
             "website": "https://boards.greenhouse.io/c6bank"
+        },
+        {
+            "company_name": "Caju Benefícios",
+            "source": "gupy",
+            "website": "https://caju.gupy.io"
         },
         {
             "company_name": "CargoX",
@@ -124,6 +134,11 @@
             "company_name": "Descomplica",
             "source": "greenhouse",
             "website": "https://boards.greenhouse.io/descomplica"
+        },
+        {
+            "company_name": "Digibee",
+            "source": "greenhouse",
+            "website": "https://boards.greenhouse.io/digibeeinc"
         },
         {
             "company_name": "Dock",
@@ -276,6 +291,11 @@
             "website": "https://carreirasomie.gupy.io"
         },
         {
+            "company_name": "Open Co",
+            "source": "gupy",
+            "website": "https://open-co.gupy.io"
+        },
+        {
             "company_name": "Pagseguro",
             "source": "gupy",
             "website": "https://pagseguro.gupy.io"
@@ -369,6 +389,11 @@
             "company_name": "Valemobi",
             "source": "gupy",
             "website": "https://valemobi.gupy.io"
+        },
+        {
+            "company_name": "Voltz Motors",
+            "source": "workable",
+            "website": "https://apply.workable.com/voltz-motors"
         },
         {
             "company_name": "Warren Brasil",

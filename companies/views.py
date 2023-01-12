@@ -4,6 +4,6 @@ from companies.serializer import CompanySerializer
 
 
 class CompaniesViewSet(viewsets.ModelViewSet):
-    queryset = Company.objects.all()
+    queryset = Company.objects.order_by('name').all()
     serializer_class = CompanySerializer
     http_method_names = ['get']
