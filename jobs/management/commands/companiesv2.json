@@ -32,8 +32,8 @@
         },
         {
             "company_name": "Azos",
-            "source": "kenoby",
-            "website": "https://jobs.kenoby.com/azos"
+            "source": "gupy",
+            "website": "https://azos.gupy.io"
         },
         {
             "company_name": "BHub",
@@ -226,6 +226,12 @@
             "website": "https://involves.gupy.io"
         },
         {
+            "company_name": "Jusbrasil",
+            "source": "greenhouse",
+            "website": "https://boards.greenhouse.io/jusbrasil"
+        },
+
+        {
             "company_name": "Knewin",
             "source": "gupy",
             "website": "https://knewin.gupy.io"
@@ -271,6 +277,11 @@
             "website": "https://nelogica.gupy.io"
         },
         {
+            "company_name": "Neon",
+            "source": "lever",
+            "website": "https://jobs.lever.co/neon"
+        },
+        {
             "company_name": "Nubank",
             "source": "greenhouse",
             "website": "https://boards.greenhouse.io/nubank"
@@ -308,7 +319,7 @@
         {
             "company_name": "Picpay",
             "source": "gupy",
-            "website": "https://boards.greenhouse.io/picpay"
+            "website": "https://picpay.com/oportunidades-de-emprego-e-carreiras/central-de-vagas"
         },
         {
             "company_name": "Pravaler",
@@ -404,6 +415,11 @@
             "company_name": "Zenvia",
             "source": "greenhouse",
             "website": "https://boards.greenhouse.io/zenvia"
+        },
+        {
+            "company_name": "Z1",
+            "source": "lever",
+            "website": "https://jobs.lever.co/z1.app"
         },
         {
             "company_name": "tembici",
