@@ -2,6 +2,7 @@ import json
 from urllib.error import HTTPError
 from django.core.management.base import BaseCommand
 from django.db.models import Q
+from jobs.management.commands.scrape_lever import Lever
 
 from jobs.models import Job
 from companies.models import Company
@@ -38,6 +39,7 @@ class Command(BaseCommand):
     def handle(self, *args, **options):
         gupy_scraper = Gupy()
         greenhouse_scraper = Greenhouse()
+        lever_scraper = Lever()
 
         for company in companies_list['jobs_sources']:
             try:
@@ -50,10 +52,17 @@ class Command(BaseCommand):
                     active_jobs_greenhouse = greenhouse_scraper.get_job(company=company, terms=TERMS,
                                                                         exceptions=EXCEPTIONS)
                     LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_greenhouse)
+
+                elif company['source'] == 'lever':
+                    active_jobs_lever = lever_scraper.get_job(company=company, terms=TERMS,
+                                                              exceptions=EXCEPTIONS)
+                    LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_lever)
                 else:
                     continue
             except Exception as e:
-                print("\033[93m" + company['website'] + " -> source is broken" + "\033[0m" )
+                print(e)
+                print("\033[93m" + company['website'] +
+                      " -> source is broken" + "\033[0m")
                 continue
 
         Job.objects.filter(~Q(url__in=LIST_OF_ACTIVE_JOB_URLS)
