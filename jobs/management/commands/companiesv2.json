@@ -91,6 +91,11 @@
             "website": "https://contaazulcarreira.gupy.io"
         },
         {
+            "company_name": "Conta Simples",
+            "source": "gupy",
+            "website": "https://contasimples.gupy.io"
+        },
+        {
             "company_name": "Contabilizei",
             "source": "gupy",
             "website": "https://contabilizei.gupy.io"
@@ -230,7 +235,6 @@
             "source": "greenhouse",
             "website": "https://boards.greenhouse.io/jusbrasil"
         },
-
         {
             "company_name": "Knewin",
             "source": "gupy",
@@ -265,6 +269,11 @@
             "company_name": "Merama",
             "source": "greenhouse",
             "website": "https://boards.greenhouse.io/merama"
+        },
+        {
+            "company_name": "Mercado Bitcoin",
+            "source": "gupy",
+            "website": "https://mb.gupy.io"
         },
         {
             "company_name": "Méliuz",
@@ -372,6 +381,11 @@
             "website": "https://superlogica.gupy.io"
         },
         {
+            "company_name": "SuperSim",
+            "source": "gupy",
+            "website": "https://supersim.gupy.io"
+        },
+        {
             "company_name": "Tabas",
             "source": "gupy",
             "website": "https://tabas.gupy.io"
@@ -385,6 +399,11 @@
             "company_name": "Terra Magna",
             "source": "gupy",
             "website": "https://terramagna.gupy.io"
+        },
+        {
+            "company_name": "Trybe",
+            "source": "lever",
+            "website": "https://jobs.lever.co/trybe"
         },
         {
             "company_name": "Uello",
