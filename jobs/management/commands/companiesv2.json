@@ -6,6 +6,11 @@
             "website": "https://aiqfome.gupy.io"
         },
         {
+            "company_name": "Alura",
+            "source": "gupy",
+            "website": "https://grupoalura.gupy.io"
+        },
+        {
             "company_name": "Ambar",
             "source": "gupy",
             "website": "https://ambartech.gupy.io"
@@ -64,6 +69,11 @@
             "company_name": "CargoX",
             "source": "gupy",
             "website": "https://cargoxcarreira.gupy.io"
+        },
+        {
+            "company_name": "Cerc",
+            "source": "gupy",
+            "website": "https://cerc.gupy.io"
         },
         {
             "company_name": "Cielo",
@@ -316,6 +326,11 @@
             "website": "https://open-co.gupy.io"
         },
         {
+            "company_name": "Origo Energia",
+            "source": "gupy",
+            "website": "https://origoenergia.gupy.io"
+        },
+        {
             "company_name": "Pagseguro",
             "source": "gupy",
             "website": "https://pagseguro.gupy.io"
@@ -331,6 +346,11 @@
             "website": "https://picpay.com/oportunidades-de-emprego-e-carreiras/central-de-vagas"
         },
         {
+            "company_name": "Pismo",
+            "source": "greenhouse",
+            "website": "https://boards.greenhouse.io/pismo"
+        },
+        {
             "company_name": "Pravaler",
             "source": "gupy",
             "website": "https://pravaler.gupy.io"
@@ -339,6 +359,11 @@
             "company_name": "Quero Educação",
             "source": "gupy",
             "website": "https://quero-educacao.gupy.io"
+        },
+        {
+            "company_name": "Quod",
+            "source": "gupy",
+            "website": "https://vempraquod.gupy.io"
         },
         {
             "company_name": "Resultados Digitais",
@@ -429,6 +454,11 @@
             "company_name": "Warren Brasil",
             "source": "gupy",
             "website": "https://warrenbrasil.gupy.io"
+        },
+        {
+            "company_name": "Willbank",
+            "source": "gupy",
+            "website": "https://vemserwill.gupy.io"
         },
         {
             "company_name": "Zenvia",
