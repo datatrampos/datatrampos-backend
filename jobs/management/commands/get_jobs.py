@@ -2,12 +2,12 @@ import json
 from urllib.error import HTTPError
 from django.core.management.base import BaseCommand
 from django.db.models import Q
-from jobs.management.commands.scrape_lever import Lever
+
 
 from jobs.models import Job
 from companies.models import Company
-from jobs.management.commands.scrape_gupy import Gupy
 from jobs.management.commands.scrape_greenhouse import Greenhouse
+from jobs.management.commands.scrape_lever import Lever
 
 TERMS = [
     "BI",
@@ -37,18 +37,12 @@ with open(r"./jobs/management/commands/companiesv2.json") as file:
 class Command(BaseCommand):
 
     def handle(self, *args, **options):
-        gupy_scraper = Gupy()
         greenhouse_scraper = Greenhouse()
         lever_scraper = Lever()
 
         for company in companies_list['jobs_sources']:
             try:
-                if company['source'] == 'gupy':
-                    active_jobs_gupy = gupy_scraper.get_job(
-                        company=company, terms=TERMS, exceptions=EXCEPTIONS)
-                    LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_gupy)
-
-                elif company['source'] == 'greenhouse':
+                if company['source'] == 'greenhouse':
                     active_jobs_greenhouse = greenhouse_scraper.get_job(company=company, terms=TERMS,
                                                                         exceptions=EXCEPTIONS)
                     LIST_OF_ACTIVE_JOB_URLS.extend(active_jobs_greenhouse)

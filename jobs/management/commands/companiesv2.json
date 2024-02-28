@@ -1,479 +1,139 @@
 {
-    "jobs_sources": [
-        {
-            "company_name": "Aiqfome",
-            "source": "gupy",
-            "website": "https://aiqfome.gupy.io"
-        },
-        {
-            "company_name": "Alura",
-            "source": "gupy",
-            "website": "https://grupoalura.gupy.io"
-        },
-        {
-            "company_name": "Ambar",
-            "source": "gupy",
-            "website": "https://ambartech.gupy.io"
-        },
-        {
-            "company_name": "Ambev Tech",
-            "source": "gupy",
-            "website": "https://ambevtech.gupy.io"
-        },
-        {
-            "company_name": "Appmax",
-            "source": "gupy",
-            "website": "https://appmax.gupy.io"
-        },
-        {
-            "company_name": "Arco Educação",
-            "source": "lever",
-            "website": "https://jobs.lever.co/arcoeducacao"
-        },
-        {
-            "company_name": "Asaas",
-            "source": "gupy",
-            "website": "https://asaas.gupy.io"
-        },
-        {
-            "company_name": "Azos",
-            "source": "gupy",
-            "website": "https://azos.gupy.io"
-        },
-        {
-            "company_name": "BHub",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/bhub"
-        },
-        {
-            "company_name": "Beep Saúde",
-            "source": "gupy",
-            "website": "https://beepsaude.gupy.io"
-        },
-        {
-            "company_name": "Buser",
-            "source": "gupy",
-            "website": "https://vemprabuser.gupy.io"
-        },
-        {
-            "company_name": "C6 Bank",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/c6bank"
-        },
-        {
-            "company_name": "Caju Benefícios",
-            "source": "gupy",
-            "website": "https://caju.gupy.io"
-        },
-        {
-            "company_name": "CargoX",
-            "source": "gupy",
-            "website": "https://cargoxcarreira.gupy.io"
-        },
-        {
-            "company_name": "Cerc",
-            "source": "gupy",
-            "website": "https://cerc.gupy.io"
-        },
-        {
-            "company_name": "Cielo",
-            "source": "gupy",
-            "website": "https://cielo.gupy.io"
-        },
-        {
-            "company_name": "Cloudwalk",
-            "source": "lever",
-            "website": "https://jobs.lever.co/cloudwalk"
-        },
-        {
-            "company_name": "Cobli",
-            "source": "gupy",
-            "website": "https://cobli.gupy.io"
-        },
-        {
-            "company_name": "Conexa Saúde",
-            "source": "gupy",
-            "website": "https://conexasaude.gupy.io"
-        },
-        {
-            "company_name": "Conta Azul",
-            "source": "gupy",
-            "website": "https://contaazulcarreira.gupy.io"
-        },
-        {
-            "company_name": "Conta Simples",
-            "source": "gupy",
-            "website": "https://contasimples.gupy.io"
-        },
-        {
-            "company_name": "Contabilizei",
-            "source": "gupy",
-            "website": "https://contabilizei.gupy.io"
-        },
-        {
-            "company_name": "Cora",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/cora"
-        },
-        {
-            "company_name": "Cornershop by Uber",
-            "source": "lever",
-            "website": "https://jobs.lever.co/cornershopapp"
-        },
-        {
-            "company_name": "Cortex",
-            "source": "gupy",
-            "website": "https://cortex.gupy.io"
-        },
-        {
-            "company_name": "Creditas",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/creditas"
-        },
-        {
-            "company_name": "Credz",
-            "source": "gupy",
-            "website": "https://credz.gupy.io"
-        },
-        {
-            "company_name": "Dadosfera",
-            "source": "gupy",
-            "website": "https://datasprints.gupy.io"
-        },
-        {
-            "company_name": "Daki",
-            "source": "gupy",
-            "website": "https://daki.gupy.io"
-        },
-        {
-            "company_name": "Descomplica",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/descomplica"
-        },
-        {
-            "company_name": "Digibee",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/digibeeinc"
-        },
-        {
-            "company_name": "Dock",
-            "source": "gupy",
-            "website": "https://dock.gupy.io"
-        },
-        {
-            "company_name": "Docket",
-            "source": "gupy",
-            "website": "https://docket.gupy.io"
-        },
-        {
-            "company_name": "Dr. Consulta",
-            "source": "gupy",
-            "website": "https://drconsulta.gupy.io"
-        },
-        {
-            "company_name": "Ebanx",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/ebanx"
-        },
-        {
-            "company_name": "Escale",
-            "source": "gupy",
-            "website": "https://escale.gupy.io"
-        },
-        {
-            "company_name": "Flash Benefícios",
-            "source": "gupy",
-            "website": "https://flash.gupy.io"
-        },
-        {
-            "company_name": "Frete.com",
-            "source": "gupy",
-            "website": "https://fretecom.gupy.io"
-        },
-        {
-            "company_name": "Geek Hunter",
-            "source": "gupy",
-            "website": "https://geekhunter.gupy.io"
-        },
-        {
-            "company_name": "Goomer",
-            "source": "gupy",
-            "website": "https://goomer.gupy.io"
-        },
-        {
-            "company_name": "Gupy",
-            "source": "gupy",
-            "website": "https://vempra.gupy.io"
-        },
-        {
-            "company_name": "Herospark",
-            "source": "gupy",
-            "website": "https://herospark.gupy.io"
-        },
-        {
-            "company_name": "Hi Platform",
-            "source": "gupy",
-            "website": "https://hiplatform.gupy.io"
-        },
-        {
-            "company_name": "Hilab",
-            "source": "gupy",
-            "website": "https://hilab.gupy.io"
-        },
-        {
-            "company_name": "Idwall",
-            "source": "gupy",
-            "website": "https://idwall.gupy.io"
-        },
-        {
-            "company_name": "Ifood",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/ifoodcarreiras"
-        },
-        {
-            "company_name": "Inventa",
-            "source": "lever",
-            "website": "https://jobs.lever.co/inventa"
-        },
-        {
-            "company_name": "Involves",
-            "source": "gupy",
-            "website": "https://involves.gupy.io"
-        },
-        {
-            "company_name": "Jusbrasil",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/jusbrasil"
-        },
-        {
-            "company_name": "Knewin",
-            "source": "gupy",
-            "website": "https://knewin.gupy.io"
-        },
-        {
-            "company_name": "Kovi",
-            "source": "gupy",
-            "website": "https://kovi.gupy.io"
-        },
-        {
-            "company_name": "Loft",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/loftvagas"
-        },
-        {
-            "company_name": "Madeira Madeira",
-            "source": "gupy",
-            "website": "https://madeiracarreira.gupy.io"
-        },
-        {
-            "company_name": "Marvin",
-            "source": "gupy",
-            "website": "https://vempramarvin.gupy.io"
-        },
-        {
-            "company_name": "Maxmilhas",
-            "source": "gupy",
-            "website": "https://maxmilhas.gupy.io"
-        },
-        {
-            "company_name": "Merama",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/merama"
-        },
-        {
-            "company_name": "Mercado Bitcoin",
-            "source": "gupy",
-            "website": "https://mb.gupy.io"
-        },
-        {
-            "company_name": "Méliuz",
-            "source": "gupy",
-            "website": "https://meliuz.gupy.io"
-        },
-        {
-            "company_name": "Nelogica",
-            "source": "gupy",
-            "website": "https://nelogica.gupy.io"
-        },
-        {
-            "company_name": "Neon",
-            "source": "lever",
-            "website": "https://jobs.lever.co/neon"
-        },
-        {
-            "company_name": "Nubank",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/nubank"
-        },
-        {
-            "company_name": "Nude",
-            "source": "gupy",
-            "website": "https://heynude.gupy.io"
-        },
-        {
-            "company_name": "Olist",
-            "source": "gupy",
-            "website": "https://olist.gupy.io"
-        },
-        {
-            "company_name": "Omie",
-            "source": "gupy",
-            "website": "https://carreirasomie.gupy.io"
-        },
-        {
-            "company_name": "Open Co",
-            "source": "gupy",
-            "website": "https://open-co.gupy.io"
-        },
-        {
-            "company_name": "Origo Energia",
-            "source": "gupy",
-            "website": "https://origoenergia.gupy.io"
-        },
-        {
-            "company_name": "Pagseguro",
-            "source": "gupy",
-            "website": "https://pagseguro.gupy.io"
-        },
-        {
-            "company_name": "Petlove",
-            "source": "gupy",
-            "website": "https://petlove.gupy.io"
-        },
-        {
-            "company_name": "Picpay",
-            "source": "greenhouse",
-            "website": "https://picpay.com/oportunidades-de-emprego-e-carreiras/central-de-vagas"
-        },
-        {
-            "company_name": "Pismo",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/pismo"
-        },
-        {
-            "company_name": "Pravaler",
-            "source": "gupy",
-            "website": "https://pravaler.gupy.io"
-        },
-        {
-            "company_name": "Quero Educação",
-            "source": "gupy",
-            "website": "https://quero-educacao.gupy.io"
-        },
-        {
-            "company_name": "Quod",
-            "source": "gupy",
-            "website": "https://vempraquod.gupy.io"
-        },
-        {
-            "company_name": "Resultados Digitais",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/rdstation"
-        },
-        {
-            "company_name": "Shopper",
-            "source": "gupy",
-            "website": "https://shopper.gupy.io"
-        },
-        {
-            "company_name": "Sinqia",
-            "source": "gupy",
-            "website": "https://sinqia.gupy.io"
-        },
-        {
-            "company_name": "Sky.One Solutions",
-            "source": "gupy",
-            "website": "https://skyone.gupy.io"
-        },
-        {
-            "company_name": "Softplan",
-            "source": "gupy",
-            "website": "https://softplan.gupy.io"
-        },
-        {
-            "company_name": "Solinftec",
-            "source": "gupy",
-            "website": "https://solinftec.gupy.io"
-        },
-        {
-            "company_name": "Stone",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/stone"
-        },
-        {
-            "company_name": "Superlógica",
-            "source": "gupy",
-            "website": "https://superlogica.gupy.io"
-        },
-        {
-            "company_name": "SuperSim",
-            "source": "gupy",
-            "website": "https://supersim.gupy.io"
-        },
-        {
-            "company_name": "Tabas",
-            "source": "gupy",
-            "website": "https://tabas.gupy.io"
-        },
-        {
-            "company_name": "Take Blip",
-            "source": "gupy",
-            "website": "https://takeblip.gupy.io"
-        },
-        {
-            "company_name": "Terra Magna",
-            "source": "gupy",
-            "website": "https://terramagna.gupy.io"
-        },
-        {
-            "company_name": "Trybe",
-            "source": "lever",
-            "website": "https://jobs.lever.co/trybe"
-        },
-        {
-            "company_name": "Uello",
-            "source": "gupy",
-            "website": "https://uello.gupy.io"
-        },
-        {
-            "company_name": "Unico",
-            "source": "lever",
-            "website": "https://jobs.lever.co/unico"
-        },
-        {
-            "company_name": "Valemobi",
-            "source": "gupy",
-            "website": "https://valemobi.gupy.io"
-        },
-        {
-            "company_name": "Voltz Motors",
-            "source": "workable",
-            "website": "https://apply.workable.com/voltz-motors"
-        },
-        {
-            "company_name": "Warren Brasil",
-            "source": "gupy",
-            "website": "https://warrenbrasil.gupy.io"
-        },
-        {
-            "company_name": "Willbank",
-            "source": "gupy",
-            "website": "https://vemserwill.gupy.io"
-        },
-        {
-            "company_name": "Zenvia",
-            "source": "greenhouse",
-            "website": "https://boards.greenhouse.io/zenvia"
-        },
-        {
-            "company_name": "Z1",
-            "source": "lever",
-            "website": "https://jobs.lever.co/z1.app"
-        },
-        {
-            "company_name": "tembici",
-            "source": "gupy",
-            "website": "https://tembici.gupy.io"
-        }
-    ]
+  "jobs_sources": [
+    {
+      "company_name": "Arco Educação",
+      "source": "lever",
+      "website": "https://jobs.lever.co/arcoeducacao"
+    },
+    {
+      "company_name": "BHub",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/bhub"
+    },
+    {
+      "company_name": "C6 Bank",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/c6bank"
+    },
+    {
+      "company_name": "Cloudwalk",
+      "source": "lever",
+      "website": "https://jobs.lever.co/cloudwalk"
+    },
+    {
+      "company_name": "Cora",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/cora"
+    },
+    {
+      "company_name": "Creditas",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/creditas"
+    },
+    {
+      "company_name": "Descomplica",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/descomplica"
+    },
+    {
+      "company_name": "Digibee",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/digibeeinc"
+    },
+    {
+      "company_name": "Ebanx",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/ebanx"
+    },
+    {
+      "company_name": "Frubana",
+      "source": "lever",
+      "website": "https://jobs.lever.co/frubana"
+    },
+    {
+      "company_name": "Ifood",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/ifoodcarreiras"
+    },
+    {
+      "company_name": "Jusbrasil",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/jusbrasil"
+    },
+    {
+      "company_name": "Loft",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/loftvagas"
+    },
+    {
+      "company_name": "Merama",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/merama"
+    },
+    {
+      "company_name": "Neon",
+      "source": "lever",
+      "website": "https://jobs.lever.co/neon"
+    },
+    {
+      "company_name": "Nubank",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/nubank"
+    },
+    {
+      "company_name": "Pismo",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/pismo"
+    },
+    {
+      "company_name": "Pravaler",
+      "source": "workable",
+      "website": "https://apply.workable.com/pravaler-1"
+    },
+    {
+      "company_name": "Resultados Digitais",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/rdstation"
+    },
+    {
+      "company_name": "Stark Bank",
+      "source": "lever",
+      "website": "https://boards.greenhouse.io/stone"
+    },
+    {
+      "company_name": "Stone",
+      "source": "greenhouse",
+      "website": "https://jobs.lever.co/starkbank"
+    },
+    {
+      "company_name": "Tabas",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/tabas"
+    },
+    {
+      "company_name": "Trybe",
+      "source": "lever",
+      "website": "https://jobs.lever.co/trybe"
+    },
+    {
+      "company_name": "Unico",
+      "source": "lever",
+      "website": "https://jobs.lever.co/unico"
+    },
+    {
+      "company_name": "Voltz Motors",
+      "source": "workable",
+      "website": "https://apply.workable.com/voltz-motors"
+    },
+    {
+      "company_name": "Xepelin",
+      "source": "lever",
+      "website": "https://jobs.lever.co/xepelin"
+    },
+    {
+      "company_name": "Zenvia",
+      "source": "greenhouse",
+      "website": "https://boards.greenhouse.io/zenvia"
+    }
+  ]
 }
