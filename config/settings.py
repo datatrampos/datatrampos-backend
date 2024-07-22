@@ -36,10 +36,9 @@ ALLOWED_HOSTS = ['http://localhost:3000', 'https://datatrampos.luismedeiros.dev'
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = (
-    'http://datatrampos-web.herokuapp.com',
-    'https://datatrampos-web.herokuapp.com',
     'http://localhost:3000',
-    'https://datatrampos.com.br', 'https://www.datatrampos.com.br'
+    'https://datatrampos.luismedeiros.dev',
+    'http://datatrampos.luismedeiros.dev'
 )
 
 
